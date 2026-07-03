@@ -1,0 +1,322 @@
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#FFF8E7;
+    color:#333;
+    line-height:1.7;
+}
+
+/* Navbar */
+
+.navbar{
+    transition:.4s;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    font-size:17px;
+    margin-left:10px;
+}
+
+.nav-link:hover{
+    color:#8B4513 !important;
+}
+
+/* Hero */
+
+.hero{
+    padding-top:130px;
+    padding-bottom:80px;
+    background:linear-gradient(to right,#fff8e7,#ffe8b3);
+}
+
+.hero h1{
+    color:#8B4513;
+}
+
+
+
+/* =======================================
+   ANIMASI DAN EFEK TAMBAHAN
+======================================= */
+
+/* Card Hover Premium */
+
+.card:hover img{
+    transform:scale(1.08);
+    transition:.5s;
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    transition:.5s;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+
+/* Judul */
+
+h1,h2,h3,h4,h5{
+    font-weight:700;
+}
+
+/* Background Section */
+
+.bg-warning{
+    background:linear-gradient(135deg,#FFD54F,#F4B400)!important;
+}
+
+/* Efek Bayangan */
+
+.shadow{
+    box-shadow:0 10px 25px rgba(0,0,0,.15)!important;
+}
+
+/* Tombol */
+
+.btn{
+    border-radius:30px;
+    padding:10px 25px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* Card Produk */
+
+.card-body{
+    padding:25px;
+}
+
+.card-body h4{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.card-body p{
+    min-height:60px;
+}
+
+/* Badge */
+
+.badge{
+    border-radius:20px;
+    padding:8px 15px;
+}
+
+/* Navbar Aktif */
+
+.nav-link.active{
+    color:#4E342E!important;
+    font-weight:bold;
+}
+
+/* Testimoni */
+
+.testimoni{
+    background:#fff;
+    border-radius:20px;
+    padding:25px;
+    transition:.4s;
+}
+
+.testimoni:hover{
+    transform:translateY(-8px);
+}
+
+/* Icon */
+
+.bi{
+    transition:.4s;
+}
+
+.bi:hover{
+    transform:scale(1.2);
+}
+
+/* Footer */
+
+footer p{
+    margin-bottom:5px;
+}
+
+/* Animasi Fade */
+
+.fade-up{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:1s;
+
+}
+
+.fade-up.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+/* Scroll */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* Tombol WhatsApp */
+
+.whatsapp{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+background:#25D366;
+
+color:white;
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:30px;
+
+text-decoration:none;
+
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+
+z-index:999;
+
+transition:.4s;
+
+}
+
+.whatsapp:hover{
+
+background:#128C7E;
+
+transform:scale(1.1);
+
+color:white;
+
+}
+
+/* Tombol Back To Top */
+
+#topBtn{
+
+display:none;
+
+position:fixed;
+
+bottom:95px;
+
+right:25px;
+
+width:50px;
+
+height:50px;
+
+border:none;
+
+border-radius:50%;
+
+background:#8B4513;
+
+color:white;
+
+font-size:22px;
+
+cursor:pointer;
+
+z-index:999;
+
+transition:.4s;
+
+}
+
+#topBtn:hover{
+
+background:#F4B400;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.card img{
+
+height:220px;
+
+}
+
+.hero{
+
+padding-top:110px;
+
+}
+
+.hero img{
+
+max-width:320px;
+
+}
+
+footer{
+
+text-align:center;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.card img{
+
+height:180px;
+
+}
+
+.btn{
+
+font-size:15px;
+
+}
+
+.hero{
+
+padding-bottom:50px;
+
+}
+
+section{
+
+padding-top:40px;
+
+padding-bottom:40px;
+
+}
+
+}
