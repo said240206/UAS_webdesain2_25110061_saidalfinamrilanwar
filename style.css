@@ -10,8 +10,6 @@ body{
 
 .navbar{
     transition:.4s;
-    padding-top:15px;
-    padding-bottom:15px;
 }
 
 .navbar-brand{
